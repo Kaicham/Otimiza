@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.image {
+    width: 500px;
+    margin-top: 60px;
+}
+
+.informativo {
+    display: flex;
+    float: left;
+    width: 80%;
+    height: 100vh;
+    background-color: #0d4369;
+    flex-direction: column;
+    align-items: center;
+    color: RGB(217, 234, 244);
+}
+
+.informativo h2 {
+    margin: 30px;
+    text-align: center;
+}
+
+.informativo h1 {
+    margin-top: 100px;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 100vh;
+    margin: 0 0 0 auto;
+    background-color: #c6d3dc;
+}
+
+.inputLogin {
+    padding: 8px;
+    margin: 10px;
+}
+
+.btn {
+    padding: 8px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    transition-duration: 0.4s;
+
+    background-color: white;
+    color: black;
+    border: 2px solid #0d4369; /* Green */
+}
+
+.btn:hover {
+    background-color: #0d4369;
+    color: white
+}
