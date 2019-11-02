@@ -1,0 +1,47 @@
+.introducao h1 {
+    font-size: 40px;
+    color: #feffff;
+}
+
+.introducao {
+    height: 100vh;
+    background-color: #0d4369;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.informacoes {
+    display: flex;
+    height: 100%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-around
+}
+
+.info-item {
+    margin-top: 80px;
+    margin-right: 40px;
+    width: 500px;
+    text-align: center;
+    font-size: 22px;
+    color: antiquewhite;
+}
+
+
+.info-item h3 {
+    border-bottom: 3px solid #fc9802;
+    width: 200px;
+    margin: 0px auto 10px auto;
+    color: #fc9802;
+    font-size: 28px
+}
+
+.info-item-img {
+    margin-top: 100px;
+    margin-right: 40px;
+    width: 150px;
+    text-align: center;
+    color: antiquewhite;
+}
+
