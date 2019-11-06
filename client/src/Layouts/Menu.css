@@ -1,0 +1,75 @@
+#main {
+    transition: 0.5s;
+}
+
+.sideMenu {
+    width: 0px;
+    background-color: #0d4369;
+    height: 100vh;
+    overflow-x: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+
+.logo {
+    width: 150px;
+    margin-top:5px;
+    margin-left: 10px;
+    position: absolute;
+    top: 0;
+}
+
+.closebtn {
+    position: relative;
+    float: right;
+    margin-right: 10px;
+    font-size: 25px !important;
+    display: flex !important;
+    clear: none;
+}
+
+.sideMenu ul {
+    list-style: none;
+    margin-top: 100px;
+    padding-inline-start: 25px;
+}
+
+/* The navigation menu links */
+.sideMenu a {
+    padding: 8px 8px 8px 8px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #a4b1ba;
+    display: block;
+    transition: 0.2s;
+}
+
+.sideMenu a:hover {
+    color: white;
+}
+
+.navbar {
+    height: 9vh;
+    width: 100%;
+    background-color: #0d4369;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+
+.icon-menu {
+    justify-self: flex-start;
+    font-size: 25px;
+    margin-left: 20px;
+    transition: 0.3s;
+}
+
+.icon-image {
+    width: 100px;
+    margin-right: 20px;
+}
